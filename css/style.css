@@ -1,3 +1,35 @@
+html {
+    background-color: #cbe6ff;
+}
+
 h1 {
-    color:blue;
+    color:rgb(44, 44, 94);
+}
+
+h2 {
+    color:rgb(44, 44, 94);
+}
+
+.navbar {
+    background-color: rgb(44, 44, 94);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #6eb9ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(36, 172, 138);
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #5b3d6d;
+    color: white;
 }
