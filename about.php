@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css">
-  <title>Hello World</title>
+  <title>Ben's Basic Blog</title>
 </head>
 
 
@@ -11,8 +11,7 @@
 
   <div class="navbar">
     <a href="index.php">Home</a>
-    <a href="newpost.php">Create Post</a>
-    <a href="editpost.php">Edit a Post</a>
+    <a href="newpostform.php">Create Post</a>
     <a class = "active" href="about.php">About</a>
   </div>
 

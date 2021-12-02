@@ -11,9 +11,16 @@ foreach ($entries as $file) {
     $split = explode("<br>", $contents);
     $title = $split[0];
     $body = $split[1];
-    echo "<div>
-          <h2>$title</h2>
-          <p>$body</p>
-          </div>";
+    echo "<br>
+    <form id='edit' action='editpostform.php' method = 'get'>
+        <input type='text' class='read-only' id='title' name='title' autocomplete='off' value='$title' readonly>
+        <textarea class='read-only' id='body' name='body' readonly>$body</textarea>
+        <input type='text' class='file-name' id='postfile' name='postfile' value='posts/$file' readonly><br>
+        <input type='submit' name='editButton' class='editButton' value='Edit post!'/>
+        <input form='delete' type='submit' name='deleteButton' class='deleteButton' value='Delete post!'/>
+    </form>
+    <form id='delete' action='deletepost.php' method = 'get'>
+        <input type='text' class='file-name' id='postfile' name='postfile' value='posts/$file' readonly>
+    </form>";
 }
 ?>

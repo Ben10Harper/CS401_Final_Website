@@ -11,8 +11,7 @@
 
   <div class="navbar">
     <a class = "active" href="index.php">Home</a>
-    <a href="newpost.php">Create Post</a>
-    <a href="editpost.php">Edit a Post</a>
+    <a href="newpostform.php">Create Post</a>
     <a href="about.php">About</a>
   </div>
 

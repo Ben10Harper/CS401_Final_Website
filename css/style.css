@@ -34,7 +34,24 @@ h2 {
     color: white;
 }
 
-input[type=text] {
+.file-name {
+    display:none;
+}
+
+.read-only {
+    width: 50%;
+    background-color: #ffffff;
+    color:rgb(44, 44, 94);
+    padding: 3px 3px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid rgb(44, 44, 94);
+    border-radius: 5px;
+    text-align: start;
+    resize: none;
+}
+
+.edit-title {
     width: 50%;
     background-color: #ffffff;
     color:rgb(44, 44, 94);
@@ -47,7 +64,7 @@ input[type=text] {
     font-size: 24px;
 }
 
-textarea {
+.edit-body {
     width: 50%;
     height: 350px;
     background-color: #ffffff;
@@ -60,11 +77,11 @@ textarea {
     text-align: start;
 }
 
-input[type=text]:focus {
+.edit-title:focus {
     border: 5px solid #a454d3;
 }
 
-textarea:focus {
+.edit-body:focus {
     border: 5px solid #a454d3;
 }
 
