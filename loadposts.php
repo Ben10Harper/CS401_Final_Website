@@ -2,8 +2,10 @@
 $fileSystemIterator = new FilesystemIterator('posts');
 $entries = array();
 foreach ($fileSystemIterator as $fileInfo) {
+    echo($fileInfo->getFilename());
     $entries[] = $fileInfo->getFilename();
 }
+rsort($entries);
 foreach ($entries as $file) {
     $currFile = fopen("posts/".$file, "r") or die("unable to open file!");
     $contents = fread($currFile, filesize("posts/".$file));
