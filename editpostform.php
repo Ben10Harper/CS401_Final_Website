@@ -30,6 +30,10 @@
     <input type='text' class='file-name' id='postfile' name='postfile' value='<?php echo $file; ?>' readonly><br>
     <input type="submit" name="submitButton" class="submitButton" value="Submit edits!"/>
   </form>
+  <form id='delete' action='deletepost.php' method = 'get'>
+    <input type='text' class='file-name' id='postfile' name='postfile' value='<?php echo $file; ?>' readonly>
+    <input form='delete' type='submit' name='deleteButton' class='deleteButton' value='Delete post!'/>
+  </form>
 
 </body>
   <script src="js/main.js"></script>

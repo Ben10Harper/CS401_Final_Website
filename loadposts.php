@@ -17,10 +17,6 @@ foreach ($entries as $file) {
         <textarea class='read-only' id='body' name='body' readonly>$body</textarea>
         <input type='text' class='file-name' id='postfile' name='postfile' value='posts/$file' readonly><br>
         <input type='submit' name='editButton' class='editButton' value='Edit post!'/>
-        <input form='delete' type='submit' name='deleteButton' class='deleteButton' value='Delete post!'/>
-    </form>
-    <form id='delete' action='deletepost.php' method = 'get'>
-        <input type='text' class='file-name' id='postfile' name='postfile' value='posts/$file' readonly>
     </form>";
 }
 ?>
