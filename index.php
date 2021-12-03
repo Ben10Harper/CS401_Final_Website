@@ -19,8 +19,6 @@
   <h2>Here you can see all the latest posts!</h2>
   <img src="img/thedude.jpg" alt="The dude">
   <?php include("loadposts.php"); ?>
-  <?php include("example.php"); ?>
-  <button type="button" onclick="helloJS()">Click Me!</button>
   
 </body>
   <script src="js/main.js"></script>
