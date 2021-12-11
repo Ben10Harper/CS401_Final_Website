@@ -15,7 +15,7 @@
     <a class = "active" href="about.php">About</a>
   </div>
 
-  <p>you are now in about.php</p>
+  <p>This is a blog website made by Ben Harper for a CS401 Final.</p>
 </body>
   <script src="js/main.js"></script>
 </html>

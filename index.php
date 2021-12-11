@@ -17,7 +17,6 @@
 
   <h1>Welcome to Ben's Basic Blog!</h1>
   <h2>Here you can see all the latest posts!</h2>
-  <img src="img/thedude.jpg" alt="The dude">
   <?php include("loadposts.php"); ?>
   
 </body>

@@ -12,6 +12,11 @@ h2 {
     color:rgb(44, 44, 94);
 }
 
+p {
+    color:rgb(44, 44, 94);
+    text-size-adjust: 45px;
+}
+
 .navbar {
     background-color: rgb(44, 44, 94);
     overflow: hidden;
